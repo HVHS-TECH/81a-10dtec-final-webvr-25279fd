@@ -3,20 +3,52 @@
   <head>
 
 <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@2.1.1/dist/aframe-extras.min.js"></script>
-    
   </head>
     <body>
     <a-scene>
-      <a-sky color="lightblue"></a-sky>
+      <a-sky color="#e6d1ad"></a-sky>
+
+      <a-entity camera="" position="1.89955 6.61262 1.23228" wasd-controls="" rotation="-15.699043586584544 -160.42818263663048 0" look-controls="" aframe-injected="" data-aframe-inspector-original-camera=""></a-entity>
       
-       <!-- Put this inside the <a-scene> -->
-      <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
-      rotation="-90 0 90"
-      ></a-entity>
-                 
+      <a-entity ply-model="src: Final desert.ply" position="-5.35097 -10.00769 4.93762" rotation="-89.92114228342166 177.4868550710605 -177.1705823681483" scale="3 3 4"></a-entity>>
+               
+      <a-entity ply-model="src: Mrlion.ply" position="1.89557 3.99498 -4.94672" scale="1.5 1.5 1.5" rotation="-90.114 -3.6405738302612507 88.3586863760999"> </a-entity>
+
+      <a-entity ply-model="src: Mrlion.ply" position="1.89557 3.70452 -3.57399" scale="1.5 1.5 1.5" rotation="-90.114 -3.6405738302612507 88.3586863760999"> </a-entity>
+
+    <a-entity ply-model="src: monkey.ply" position="4.57025 6.27868 6.00089" rotation="-88.349 5.920372897086796 81.62184862095168"animation="
+    property: position;
+    from:4.57025 6.27868 6.00089 ;
+    to:4.57025 7 6.00089 ;
+    dur:700;
+    loop:true;
+    dir:alternate;"> </a-entity>
+
+    <a-entity ply-model="src: monkey.ply" position="9.36697 6.27868 6.92838" rotation="-88.349 5.920372897086796 81.62184862095168"animation="
+    property: position;
+    from:9.36697 6.27868 6.92838 ;
+    to:9.36697 7 6.92838 ;
+    dur:600;
+    loop:true;
+    dir:alternate;"> </a-entity>
+
+    <a-entity ply-model="src: monkey.ply" position="7.68183 6.04023 6.31643" rotation="-88.349 5.920372897086796 81.62184862095168"animation="
+    property: position;
+    from:7.68183 6.04023 6.31643 ;
+    to:7.68183 7.6 6.31643 ;
+    dur:800;
+    loop:true;
+    dir:alternate;"> </a-entity>
+
+    <a-entity ply-model="src: Savanna Tree.ply" position="-0.09441 -1.05447 8.90403" scale="2 2 2" rotation="-89.54470901202072 -179.9998479605043 179.99010767798708"> </a-entity>
+
+    <a-entity ply-model="src: Savanna Tree.ply" position="-9.13585 -0.42154 8.90403" scale="2 2 2" rotation="-85.85428785358307 179.51226087684796 -178.12111935027033"> </a-entity>
+
+     <a-entity ply-model="src: Rock.ply" position="-5.18985 -0.02339 -3.26811" scale="1.4 1.4 1.4" rotation="-89.06915404206212 -179.9998479605043 179.99010767798708"> </a-entity>
+
+     <a-entity ply-model="src: girafee.ply" position="-0.15483 -1.47575 3.36861" scale="1.8 1.8 1.8" rotation="-87.86698 200 -116.93141999999999"> </a-entity>
     </a-scene>
   </body>
 </html>
